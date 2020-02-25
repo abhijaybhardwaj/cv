@@ -1,0 +1,376 @@
+/*
+Author: ABHIJAY BHARDWAJ
+Author URI: wwww.abhijaybhardwaj.com
+*/
+/* Portrait tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .nav__list-item a {
+        font-size: 55px;
+    }
+    #front_page_Text{
+        top: 40%;
+    }
+    .ml1 {
+        position: absolute;
+        top: -27%;
+        left: -18% ! important;
+    }
+    .ml5 {
+        top: -7%;
+    }
+    .ml5 {
+        font-weight: 400;
+        font-size: 3.2em;
+    }
+    .ml11 {
+        font-size: 1rem !important;
+        font-weight: 400;
+        margin-top: 0; 
+    }
+    .ml11 .text-wrapper {
+        display: none;
+    }
+    .ml6 {
+        font-size: 2em;
+        bottom: 6%;
+        color: #F9690E;
+        padding: 5px;
+    }
+    .button_style {
+        bottom: 24%;
+        left: 10.7%;
+    }
+    .about-text{
+       font-size: 38px;
+       left: 13px;
+   }
+   .about_images {
+    padding: 8% 0 0 0;
+    }
+    .about_me {
+        padding: 5% 0 0 0;
+    }
+    .contact-text {
+        font-size: 38px;
+        right: 13px;
+    }
+    .contact_us_desc {
+        height: 100px;
+        margin-top: 75px;
+    }
+    .project_details h1 {
+        margin-top: 55%;
+    }
+    .project_img {
+        margin: 55% 0;
+    }
+    .item_open .close {
+        opacity: 1;
+        top: 10%;
+        right: 8%;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+}
+   
+
+/* Portrait tablets and small desktops */
+
+@media (max-width: 991px) {
+    .nav__list-item a {
+        font-size: 55px;
+    }
+    .about_me_front {
+      margin: 15% 0 0 -15%;
+    }
+    .loading_man {
+    position: absolute;
+    right: 25px;
+    top: -24%;
+    }
+    #front_page_Text{
+        top: 40%;
+    }
+    .ml1 {
+        position: absolute;
+        top: -33%;
+        left: -35% ! important;
+    }
+    .ml5 {
+        top: -15%;
+        left: -34%;
+    }
+    .ml5 {
+        font-weight: 400;
+        font-size: 3.2em;
+    }
+    .ml11 {
+        font-size: 1rem !important;
+        font-weight: 400;
+        margin-top: 0; 
+    }
+    .ml11 .text-wrapper {
+        display: none;
+    }
+    .ml6 {
+        font-size: 1.7rem;
+        bottom: 6%;
+        color: #F9690E;
+        padding: 5px;
+    }
+    .ml6 .text-wrapper{
+        left: -44px;
+    }
+    .button_style {
+        position: absolute;
+        left: 28%;
+        top: 7%;
+    }
+    .about_images img{
+        width: 250px;
+    }
+    .about_images {
+        padding: 13% 0 0 0;
+    }
+     .about_me {
+        padding: 5% 0 0 0;
+   }
+}
+   
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+    .nav__list-item a {
+        font-size: 35px;
+    }
+    .widthset {
+       width: 100%;
+       height: 50vh;
+    }
+    .about-text {
+        top: 23%;
+    }
+    .contact-text {
+        top: 22%;
+    }
+    .about_me_front {
+         margin: -60% 0 0 -15%;
+    }
+    .ml5 {
+        font-weight: 400;
+        font-size: 2.2em;
+    } 
+    .ml1 {
+          position: absolute;
+          top: -380%;
+          left: 15% ! important; 
+    }
+    .ml5 {
+         top: 71%;
+         left: -2%;
+    }
+    .ml6{
+        display: none;
+    }
+    .button_style {
+        left: 68%;
+        top: -13%;
+    }
+    .loading_man{
+        display: none;
+    }
+    .contact_us_desc {
+        height: 124px;
+    }
+    .contact_us_desc p {
+    padding: 0 5px 0 0;
+  }
+  .left_side_section img{
+    display: none;
+  }
+  #about_expertise{
+    text-align: center;
+  }
+}
+   
+/* Landscape phones and smaller */
+
+@media (max-width: 480px) {
+    .widthset {
+    width: 100%;
+    height: 50vh;
+}
+   .ml1 {
+    display: none;
+}
+.about_me_front {
+    margin: -60% 0 0 -3%;
+}
+.button_style {
+    left: 49%;
+    top: -36%;
+}
+.rigth_side_section h2{
+    padding-top: 0px;
+}
+.contact_form form{
+    padding: 30px;
+}
+.ml5 {
+    display: none;
+}
+.view_all_project {
+    bottom: -75px;
+    left: 30%;
+}
+.project_details h1 {
+    color: #fff;
+    font-size: 16px !important;
+    font-family: 'Philosopher', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 68%;
+    line-height: 1;
+}
+#recent_works p {
+    font-size: 13px;
+}
+.project_img {
+    margin-top: 110%;
+}
+.item_open .close {
+    opacity: 1;
+    top: 60px;
+    right: 50px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.contact_us_desc {
+    margin-top: 56px;
+    padding: 5px;
+    width: 100%;
+}
+.about_me p {
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 18px;
+}
+.follow_us ul {
+    margin: 0 0 0 28px;
+    clear: right;
+}
+#footer h2 {
+    margin-left: -60px;
+}
+}
+
+@media (max-width: 320px) {
+    .nav__list-item a {
+        font-size: 18px;
+    }
+    .button_style {
+        display: none;
+    }
+    .start_project{
+        display: none;
+    }
+    .left_side_section {
+    padding-top: 30px;
+   }
+   .rigth_side_section p{
+    margin: 0px 0 30px 0;
+    font-size: 13px !important;
+   }
+   .rigth_side_section h2{
+    font-size: 20px;
+    }
+    #about_expertise {
+    padding-bottom: 30px;
+   }
+   .view_all_project {
+    bottom: -75px;
+    left: 18%;
+  }
+  .language_expertise ul{
+    display: none;
+  }
+  #footer h2 {
+    margin-left: 0;
+    font-size: 14px;
+ }
+ .heading_footer h1 {
+    font-size: 24px;
+}
+.contact_us {
+    /* margin-top: 20px; */
+    margin: 0 0 0 -90px;
+}
+.follow_us {
+    /* margin-top: 20px; */
+    margin: 0 0 0 -60px;
+}
+.heading_footer{
+    text-align: center;
+}
+.project_details span>p{
+    display: none;
+}
+.project_details h1{
+    font-size: 11px !important;
+    margin-top: 130%;
+}
+.item_open .close {
+    opacity: 1;
+    top: 18px;
+    right: 23px;
+}
+.visit_link{
+    position: absolute;
+    top: 142%;
+    left: 23%
+}
+.visit_link span{
+    display: inline-block;
+}
+.logo-wrap a>svg{
+    width: 100px !important;
+    height: 100px !important;
+}
+.logo-wrap {
+    left: -33px;
+    top: 0;
+    cursor: pointer;
+}
+.cd-header {
+    position: fixed;
+    width: 99%;
+    top: -20px;
+    left: 23px;
+    z-index: 100;
+}
+.about_images img {
+    width: 100px;
+}
+.about_me p{
+    display: none;
+}
+.follow_link ul{
+    margin: 0 0 0 -40px;
+}
+.contact_us_desc h1{
+    font-size: 20px;
+}
+.contact_form form{
+    padding: 0px;
+}
+.mesg{
+    display: none;
+}
+}
